@@ -2,10 +2,13 @@
   "name": "baby_shower",
   "version": "0.1.0",
   "private": true,
+
+  "homepage": "https://luismoral24.github.io/baby_shower_Liv",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -42,4 +45,6 @@
     "not dead",
     "not ie 11"
   ]
+
+  
 }
