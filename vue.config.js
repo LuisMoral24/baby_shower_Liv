@@ -4,8 +4,7 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/Invitacion_Baby_Shower/'  // Reemplaza 'mi-repositorio' con el nombre de tu repositorio
-    : '/'
+  publicPath: process.env.NODE_ENV === 'production' ? '/baby_shower_Liv/' : '/'
 }
+
 
